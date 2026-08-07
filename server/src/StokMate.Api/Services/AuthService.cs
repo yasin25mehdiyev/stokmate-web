@@ -11,7 +11,7 @@ public class AuthService
 {
     /// <summary>Yenileme anahtarının geçerlilik süresi.</summary>
     internal static readonly TimeSpan RefreshTokenLifetime = TimeSpan.FromDays(7);
-    
+
     private readonly AppDbContext _db;
     private readonly TokenService _tokenService;
 

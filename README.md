@@ -76,3 +76,7 @@ service → seed verisi zincirinin tamamı buna göre güncellendi:
 - **`DbSeeder`** — test kullanıcısına bir `ImageUrl` (pravatar) atandı; `ProductRows`
   seed dizisindeki her satıra `BrandId`, `SupplierId`, `CostPrice` değerleri ve
   türetilmiş bir `Description` eklendi.
+- **Refresh token → HttpOnly cookie** — refresh token artık response body'de
+  dönmüyor; `AuthController` içindeki `SetRefreshTokenCookie` tarafından yalnızca
+  `/auth` altındaki endpoint'lere giden, `HttpOnly` + `SameSite=Lax` bir cookie
+  olarak set ediliyor (detaylar için yukarıdaki "Auth Akışı" bölümüne bakın).

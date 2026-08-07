@@ -1,3 +1,5 @@
+using System.Text.Json.Serialization;
+
 namespace StokMate.Api.Models;
 
 public class LoginRequest
@@ -28,6 +30,9 @@ public class UserDto
 public class AuthResponse
 {
     public string AccessToken { get; set; } = "";
+
+    /// <summary>Yalnızca backend içinde HttpOnly cookie'ye yazmak için kullanılır; JSON yanıtına dahil edilmez.</summary>
+    [JsonIgnore]
     public string RefreshToken { get; set; } = "";
 
     /// <summary>Erişim anahtarının son geçerlilik anı (UTC).</summary>
