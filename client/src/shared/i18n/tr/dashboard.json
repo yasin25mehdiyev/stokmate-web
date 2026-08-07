@@ -1,0 +1,11 @@
+{
+  "greeting": "Hoş geldin, {{name}}",
+  "stats": {
+    "totalProducts": "Toplam ürün",
+    "criticalStock": "Kritik stok",
+    "outOfStock": "Stokta yok",
+    "stockStatus": "Stok durumu",
+    "normal": "Normal",
+    "critical": "Kritik"
+  }
+}

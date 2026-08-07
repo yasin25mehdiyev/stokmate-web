@@ -1,0 +1,90 @@
+{
+  "page": {
+    "title": "Ürünler",
+    "description": "Ürün kataloğunuzu görüntüleyin, arayın ve stok bilgilerini güncelleyin."
+  },
+  "actions": {
+    "add": "Ürün Ekle"
+  },
+  "table": {
+    "search": "Ürün adı veya stok kodu ara...",
+    "name": "Ürün",
+    "sku": "Stok Kodu",
+    "category": "Kategori",
+    "brand": "Marka",
+    "price": "Fiyat",
+    "stock": "Stok",
+    "status": "Durum",
+    "updatedAt": "Güncellenme",
+    "outOfStock": "Tükendi",
+    "lowStock": "Kritik"
+  },
+  "status": {
+    "active": "Aktif",
+    "inactive": "Pasif",
+    "discontinued": "Üretimi Durduruldu"
+  },
+  "unit": {
+    "piece": "Adet",
+    "kg": "Kilogram",
+    "liter": "Litre",
+    "box": "Kutu"
+  },
+  "delete": {
+    "title": "Ürünü sil",
+    "description": "\"{{name}}\" ürününü silmek istediğinize emin misiniz? Bu işlem geri alınamaz.",
+    "confirm": "Sil",
+    "success": "\"{{name}}\" silindi.",
+    "error": "Ürün silinirken bir hata oluştu."
+  },
+  "create": {
+    "title": "Yeni Ürün",
+    "description": "Kataloğunuza yeni bir ürün ekleyin."
+  },
+  "update": {
+    "title": "Ürünü Güncelle",
+    "description": "Ürün bilgilerini düzenleyin."
+  },
+  "view": {
+    "title": "Ürün Detayı",
+    "description": "Ürünle ilgili tüm bilgileri görüntüleyin.",
+    "edit": "Düzenle",
+    "basicInfo": "Temel Bilgiler",
+    "lastUpdated": "Son güncelleme",
+    "noDescription": "Açıklama eklenmemiş."
+  },
+  "form": {
+    "name": "Ad",
+    "namePlaceholder": "örn. Kablosuz Mouse",
+    "sku": "Stok Kodu",
+    "skuPlaceholder": "örn. WM-1001",
+    "barcode": "Barkod",
+    "barcodePlaceholder": "örn. 8690123456789",
+    "category": "Kategori",
+    "brand": "Marka",
+    "supplier": "Tedarikçi",
+    "price": "Fiyat (₺)",
+    "pricePlaceholder": "0,00",
+    "costPrice": "Maliyet Fiyatı (₺)",
+    "costPricePlaceholder": "0,00",
+    "stock": "Stok",
+    "minStock": "Minimum Stok",
+    "unit": "Birim",
+    "status": "Durum",
+    "description": "Açıklama",
+    "descriptionPlaceholder": "Ürünle ilgili ek bilgi ekleyin...",
+    "cancel": "Vazgeç",
+    "create": "Ürünü Oluştur",
+    "update": "Değişiklikleri Kaydet",
+    "createSuccess": "\"{{name}}\" oluşturuldu.",
+    "updateSuccess": "\"{{name}}\" güncellendi.",
+    "validation": {
+      "nameRequired": "Ürün adı zorunludur.",
+      "skuRequired": "Stok kodu zorunludur.",
+      "categoryRequired": "Lütfen bir kategori seçin.",
+      "brandRequired": "Lütfen bir marka seçin.",
+      "priceRequired": "Lütfen geçerli bir fiyat girin.",
+      "stockRequired": "Lütfen geçerli bir stok miktarı girin."
+    }
+  }
+}

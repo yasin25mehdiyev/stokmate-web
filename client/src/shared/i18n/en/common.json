@@ -1,0 +1,61 @@
+{
+  "name": "StokMate",
+  "sidebar": {
+    "dashboard": "Home",
+    "products": "Products",
+    "collapse": "Collapse menu",
+    "expand": "Expand menu",
+    "support": "Support",
+    "phone": "+90 507 960 58 82",
+    "email": "support@stokmate.com"
+  },
+  "header": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "notifications": "Notifications",
+    "profileMenu": "Profile menu"
+  },
+  "profileMenu": {
+    "logout": "Log out"
+  },
+  "select": {
+    "loading": "Loading...",
+    "categoryPlaceholder": "Select a category",
+    "brandPlaceholder": "Select a brand",
+    "supplierPlaceholder": "Select a supplier"
+  },
+  "dataTable": {
+    "search": "Search...",
+    "noResults": "No results found.",
+    "showingResults": "Showing {{from}}-{{to}} of {{total}} results",
+    "allCategories": "All categories",
+    "allBrands": "All brands",
+    "clearFilters": "Clear filters",
+    "actions": {
+      "edit": "Edit",
+      "view": "View",
+      "delete": "Delete"
+    }
+  },
+  "breadcrumb": {
+    "dashboard": "Home",
+    "products": "Products",
+    "create": "New",
+    "update": "Edit"
+  },
+  "confirmDialog": {
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for may have moved, been renamed, or never existed.",
+    "home": "Back to home",
+    "products": "Go to products"
+  },
+  "errorBoundary": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred. Try refreshing the page; if the problem continues, contact support.",
+    "home": "Back to home"
+  }
+}

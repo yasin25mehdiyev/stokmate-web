@@ -1,0 +1,61 @@
+{
+  "name": "StokMate",
+  "sidebar": {
+    "dashboard": "Ana Sayfa",
+    "products": "Ürünler",
+    "collapse": "Menüyü daralt",
+    "expand": "Menüyü genişlet",
+    "support": "Teknik Destek",
+    "phone": "+90 507 960 58 82",
+    "email": "support@stokmate.com"
+  },
+  "header": {
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "notifications": "Bildirimler",
+    "profileMenu": "Profil menüsü"
+  },
+  "profileMenu": {
+    "logout": "Çıkış yap"
+  },
+  "select": {
+    "loading": "Yükleniyor...",
+    "categoryPlaceholder": "Kategori seçin",
+    "brandPlaceholder": "Marka seçin",
+    "supplierPlaceholder": "Tedarikçi seçin"
+  },
+  "dataTable": {
+    "search": "Ara...",
+    "noResults": "Sonuç bulunamadı.",
+    "showingResults": "{{total}} sonuçtan {{from}}-{{to}} arası gösteriliyor",
+    "allCategories": "Tüm Kategoriler",
+    "allBrands": "Tüm Markalar",
+    "clearFilters": "Filtreleri temizle",
+    "actions": {
+      "edit": "Düzenle",
+      "view": "Görüntüle",
+      "delete": "Sil"
+    }
+  },
+  "breadcrumb": {
+    "dashboard": "Ana Sayfa",
+    "products": "Ürünler",
+    "create": "Yeni Ekle",
+    "update": "Düzenle"
+  },
+  "confirmDialog": {
+    "confirm": "Onayla",
+    "cancel": "Vazgeç"
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "description": "Aradığınız sayfa taşınmış, adı değişmiş ya da hiç var olmamış olabilir.",
+    "home": "Ana sayfaya dön",
+    "products": "Ürünlere git"
+  },
+  "errorBoundary": {
+    "title": "Bir şeyler ters gitti",
+    "description": "Beklenmeyen bir hata oluştu. Sayfayı yenilemeyi deneyin; sorun devam ederse teknik destek ile iletişime geçin.",
+    "home": "Ana sayfaya dön"
+  }
+}

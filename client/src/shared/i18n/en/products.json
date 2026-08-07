@@ -1,0 +1,90 @@
+{
+  "page": {
+    "title": "Products",
+    "description": "View, search, and update your product catalog and stock levels."
+  },
+  "actions": {
+    "add": "Add Product"
+  },
+  "table": {
+    "search": "Search by product name or SKU...",
+    "name": "Product",
+    "sku": "SKU",
+    "category": "Category",
+    "brand": "Brand",
+    "price": "Price",
+    "stock": "Stock",
+    "status": "Status",
+    "updatedAt": "Updated",
+    "outOfStock": "Out of stock",
+    "lowStock": "Low stock"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "discontinued": "Discontinued"
+  },
+  "unit": {
+    "piece": "Piece",
+    "kg": "Kilogram",
+    "liter": "Liter",
+    "box": "Box"
+  },
+  "delete": {
+    "title": "Delete product",
+    "description": "Are you sure you want to delete \"{{name}}\"? This action cannot be undone.",
+    "confirm": "Delete",
+    "success": "\"{{name}}\" was deleted.",
+    "error": "Something went wrong while deleting the product."
+  },
+  "create": {
+    "title": "New Product",
+    "description": "Add a new product to your catalog."
+  },
+  "update": {
+    "title": "Update Product",
+    "description": "Edit the product's details."
+  },
+  "view": {
+    "title": "Product Details",
+    "description": "View all information about this product.",
+    "edit": "Edit",
+    "basicInfo": "Basic Information",
+    "lastUpdated": "Last updated",
+    "noDescription": "No description added."
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "e.g. Wireless Mouse",
+    "sku": "SKU",
+    "skuPlaceholder": "e.g. WM-1001",
+    "barcode": "Barcode",
+    "barcodePlaceholder": "e.g. 8690123456789",
+    "category": "Category",
+    "brand": "Brand",
+    "supplier": "Supplier",
+    "price": "Price (₺)",
+    "pricePlaceholder": "0.00",
+    "costPrice": "Cost Price (₺)",
+    "costPricePlaceholder": "0.00",
+    "stock": "Stock",
+    "minStock": "Minimum Stock",
+    "unit": "Unit",
+    "status": "Status",
+    "description": "Description",
+    "descriptionPlaceholder": "Add extra details about the product...",
+    "cancel": "Cancel",
+    "create": "Create Product",
+    "update": "Save Changes",
+    "createSuccess": "\"{{name}}\" was created.",
+    "updateSuccess": "\"{{name}}\" was updated.",
+    "validation": {
+      "nameRequired": "Product name is required.",
+      "skuRequired": "SKU is required.",
+      "categoryRequired": "Please select a category.",
+      "brandRequired": "Please select a brand.",
+      "priceRequired": "Please enter a valid price.",
+      "stockRequired": "Please enter a valid stock quantity."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "StokMate",
+  "sidebar": {
+    "dashboard": "Главная",
+    "products": "Товары",
+    "collapse": "Свернуть меню",
+    "expand": "Развернуть меню",
+    "support": "Поддержка",
+    "phone": "+90 507 960 58 82",
+    "email": "support@stokmate.com"
+  },
+  "header": {
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню",
+    "notifications": "Уведомления",
+    "profileMenu": "Меню профиля"
+  },
+  "profileMenu": {
+    "logout": "Выйти"
+  },
+  "select": {
+    "loading": "Загрузка...",
+    "categoryPlaceholder": "Выберите категорию",
+    "brandPlaceholder": "Выберите бренд",
+    "supplierPlaceholder": "Выберите поставщика"
+  },
+  "dataTable": {
+    "search": "Поиск...",
+    "noResults": "Результатов не найдено.",
+    "showingResults": "Показано {{from}}-{{to}} из {{total}}",
+    "allCategories": "Все категории",
+    "allBrands": "Все бренды",
+    "clearFilters": "Сбросить фильтры",
+    "actions": {
+      "edit": "Редактировать",
+      "view": "Просмотреть",
+      "delete": "Удалить"
+    }
+  },
+  "breadcrumb": {
+    "dashboard": "Главная",
+    "products": "Товары",
+    "create": "Добавить",
+    "update": "Редактировать"
+  },
+  "confirmDialog": {
+    "confirm": "Подтвердить",
+    "cancel": "Отмена"
+  },
+  "notFound": {
+    "title": "Страница не найдена",
+    "description": "Страница, которую вы ищете, могла быть перемещена, переименована или никогда не существовала.",
+    "home": "На главную",
+    "products": "К товарам"
+  },
+  "errorBoundary": {
+    "title": "Что-то пошло не так",
+    "description": "Произошла непредвиденная ошибка. Попробуйте обновить страницу; если проблема сохраняется, обратитесь в поддержку.",
+    "home": "На главную"
+  }
+}

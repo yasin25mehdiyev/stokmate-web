@@ -1,0 +1,11 @@
+{
+  "greeting": "Welcome, {{name}}",
+  "stats": {
+    "totalProducts": "Total products",
+    "criticalStock": "Critical stock",
+    "outOfStock": "Out of stock",
+    "stockStatus": "Stock status",
+    "normal": "Normal",
+    "critical": "Critical"
+  }
+}

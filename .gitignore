@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# --- client (Node / Vite) ---
+client/node_modules/
+client/dist/
+client/.env
+client/.env.local
+client/*.log
+
+# --- server (.NET) ---
+server/**/bin/
+server/**/obj/
+server/*.user

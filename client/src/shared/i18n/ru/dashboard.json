@@ -1,0 +1,11 @@
+{
+  "greeting": "Добро пожаловать, {{name}}",
+  "stats": {
+    "totalProducts": "Всего товаров",
+    "criticalStock": "Критичный остаток",
+    "outOfStock": "Нет в наличии",
+    "stockStatus": "Состояние склада",
+    "normal": "Норма",
+    "critical": "Критично"
+  }
+}
